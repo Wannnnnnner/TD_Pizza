@@ -1,8 +1,7 @@
-module com.td_pizza {
+module test.pizzas {
+
+    requires javafx.base;
     requires javafx.controls;
-    requires javafx.fxml;
 
-
-    opens com.td_pizza to javafx.fxml;
-    exports com.td_pizza;
+    exports pizzas;
 }
