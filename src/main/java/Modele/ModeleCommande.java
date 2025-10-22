@@ -1,7 +1,9 @@
 package Modele;
 
-import Fidelite.StrategyFidelite;
-import Pizza.Pizza;
+import Fidelite.*;
+import Observateur.*;
+import Pizza.*;
+
 import javafx.beans.Observable;
 
 import java.util.ArrayList;
@@ -25,7 +27,14 @@ public class ModeleCommande implements Sujet{
     public void ajouterPizza(String naturePizza){
         if(this.nbPizza != 4) {
             this.nbPizza++;
-            this.listPizza.add(new naturePizza());
+            switch (naturePizza) {
+                case "Creme":
+                    this.listPizza.add(new PizzaCreme());
+                    break;
+                case "Tomate":
+                    this.listPizza.add(new PizzaTomate());
+                    break;
+            }
             this.numPizzaCourante++;
             calculPrixCommande();
         }
