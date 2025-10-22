@@ -1,9 +1,11 @@
 package Modele;
 
-public interface Sujet {
-    public void enregistrerObservateur(Observateur);
+import Observateur.Observateur;
 
-    public void supprimerObservateur(Observateur);
+public interface Sujet {
+    public void enregistrerObservateur(Observateur o);
+
+    public void supprimerObservateur(Observateur o);
 
     public void notifierObservateurs();
 }
