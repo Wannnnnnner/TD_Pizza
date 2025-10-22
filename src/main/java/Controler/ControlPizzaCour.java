@@ -1,10 +1,11 @@
 package Controler;
 
+import Modele.ModeleCommande;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 
-public class ControlPizzaCour extends EventHandler {
-    private ModelCommande mod;
+public class ControlPizzaCour implements EventHandler {
+    private ModeleCommande mod;
     public ControlPizzaCour(ModeleCommande mod) {
         this.mod = mod;
     }
