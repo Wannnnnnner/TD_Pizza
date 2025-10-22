@@ -1,4 +1,4 @@
-package pizzas;
+package JavaFX;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;

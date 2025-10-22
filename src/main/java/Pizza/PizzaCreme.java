@@ -1,7 +1,7 @@
 package Pizza;
 
 import javafx.scene.layout.StackPane;
-import pizzas.MyImage;
+import JavaFX.MyImage;
 
 public class PizzaCreme implements Pizza{
     public double prix;

@@ -1,8 +1,8 @@
-module test.pizzas {
+module test.JavaFX {
 
     requires javafx.base;
     requires javafx.controls;
 
-    exports pizzas;
+    exports JavaFX;
     exports Pizza;
 }

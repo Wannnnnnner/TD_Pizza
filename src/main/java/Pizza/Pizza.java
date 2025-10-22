@@ -1,6 +1,6 @@
 package Pizza;
 
-import pizzas.MyImage;
+import JavaFX.MyImage;
 
 public interface Pizza {
 

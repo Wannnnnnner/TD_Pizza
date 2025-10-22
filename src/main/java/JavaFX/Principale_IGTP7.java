@@ -1,4 +1,4 @@
-package pizzas;
+package JavaFX;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
