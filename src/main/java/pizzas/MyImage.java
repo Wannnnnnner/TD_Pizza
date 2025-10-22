@@ -1,4 +1,4 @@
-package com.td_pizza;
+package pizzas;
 
 
 import javafx.scene.canvas.Canvas;

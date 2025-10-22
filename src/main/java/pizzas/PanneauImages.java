@@ -1,5 +1,4 @@
-
-package com.td_pizza;
+package pizzas;
 
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
