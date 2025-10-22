@@ -1,10 +1,11 @@
 package Controler;
 
+import Modele.ModeleCommande;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 
 public class ControlDebutCommande extends EventHandler {
-    private ModelCommande mod;
+    private ModeleCommande mod;
     public ControlDebutCommande(ModeleCommande mod) {
         this.mod = mod;
     }
