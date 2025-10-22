@@ -4,4 +4,5 @@ module test.pizzas {
     requires javafx.controls;
 
     exports pizzas;
+    exports Pizza;
 }

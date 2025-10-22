@@ -1,4 +1,6 @@
-package pizzas;
+package Pizza;
+
+import pizzas.MyImage;
 
 public interface Pizza {
 

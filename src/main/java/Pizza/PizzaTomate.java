@@ -1,6 +1,7 @@
-package pizzas;
+package Pizza;
 
 import javafx.scene.layout.StackPane;
+import pizzas.MyImage;
 
 public class PizzaTomate implements Pizza {
     public double prix;
